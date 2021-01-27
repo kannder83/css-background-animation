@@ -6,6 +6,7 @@
 
 body {
   background: black;
+  font-family: "Asap", sans-serif;
 }
 
 .container {
@@ -51,9 +52,26 @@ body {
   text-align: center;
 }
 
+.glass {
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.glass,
 .box p {
-  color: rgb(15, 15, 15);
-  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+  line-height: 25px;
 }
 
 @keyframes change_bg {
